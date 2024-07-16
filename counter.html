@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./counter.css" />
+  </head>
+  <body>
+    <div class="settimer">
+      <div class="but">Set Timer</div>
+      <div class="options">
+        <div class="op" value="1" onclick="funs(event)">1 Hour</div>
+        <div class="op" value="2" onclick="funs(event)">2 Hour</div>
+        <div class="op" value="3" onclick="funs(event)">3 Hour</div>
+        <div class="op" value="4" onclick="funs(event)">4 Hour</div>
+        <div class="op" value="5" onclick="funs(event)">Other</div>
+      </div>
+    </div>
+    <div class="time">
+      <div class="hours">00</div>
+      <div class="m">&nbsp;:&nbsp;</div>
+      <div class="minutes">00</div>
+      <div class="m">&nbsp;:&nbsp;</div>
+      <div class="seconds">00</div>
+    </div>
+    <div class="buttons">
+      <div class="start" onclick="start()">Start</div>
+      <div class="stop" onclick="fun2()">Stop</div>
+      <div class="reset" onclick="reset()">Reset</div>
+    </div>
+  </body>
+  <script src="./counter.js"></script>
+</html>

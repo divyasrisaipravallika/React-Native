@@ -1,0 +1,49 @@
+.parent {
+  position: relative;
+  cursor: pointer;
+  height: 100px;
+  width: 200px;
+}
+.child1 {
+  border: 1px solid black;
+  border-radius: 5%;
+  background-color: azure;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+}
+.child1 button {
+  font-size: 30px;
+}
+.child2 {
+  position: absolute;
+  background-color: rgba(171, 166, 166, 0.018);
+  display: none;
+  width: fit-content;
+  height: fit-content;
+  font-size: 30px;
+}
+.parent:hover .child2 {
+  display: block;
+  top: 50px;
+}
+.child2 div:hover {
+  background-color: aquamarine;
+}
+.child2 div {
+  border-bottom: 1px solid black;
+}
+.main {
+  position: absolute;
+  top: 50%;
+}
+.main img {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: 0%;
+  z-index: -1;
+}
+.main p {
+  color: white;
+}

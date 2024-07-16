@@ -1,0 +1,59 @@
+/* .mydiv {
+  border-top-width: 10px;
+  border-bottom-width: 20px;
+  border-left-width: 25px;
+  border-right-width: 15px;
+  border-top-color: aqua;
+  border-bottom-color: blueviolet;
+  border-left-color: chocolate;
+  border-right-color: darkturquoise;
+  border-top-style: solid;
+  border-bottom-style: dashed;
+  border-right-style: initial;
+  border-left-style: groove;
+} */
+/* .parent {
+  border: 5px solid black;
+  font-size: 32px;
+  width: 100%;
+  max-width: 1000px;
+  min-width: 100px;
+  width: fit-content;
+  height: fit-content;
+} */
+#a {
+}
+/* .c {
+  margin: 80px;
+  padding: 40px;
+  border: 8px solid black;
+  height: 450px;
+  width: 450px;
+  border-top-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+} */
+/* .x {
+  width: 100%;
+  height: 100svh;
+}
+.y {
+  width: 100%;
+  height: 30%;
+  border: 8px solid black;
+}
+.z {
+  width: 100%;
+  height: 30%;
+  border: 8px solid black;
+}
+.s {
+  width: 100%;
+  height: 30%;
+  border: 8px solid black;
+} */
+.b {
+  height: 450px;
+  width: 450px;
+  border-radius: 120px;
+  box-shadow: 0px 0px 10px 10px rgb(203 203 203);
+}

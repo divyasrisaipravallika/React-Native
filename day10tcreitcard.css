@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent {
+  position: relative;
+  width: 400px;
+  height: 250px;
+}
+.i img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px black;
+  border: 1px solid black;
+  z-index: -1;
+}
+.sbi img {
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  width: 30%;
+  height: 25%;
+}
+.boo {
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  top: 30%;
+}
+.bomma img {
+  position: absolute;
+  left: 8%;
+  height: 60%;
+  width: 15%;
+  border-radius: 5px;
+}
+.matter p {
+  position: absolute;
+  font-size: 10px;
+  font-style: italic;
+  color: white;
+}
+.matter {
+  position: absolute;
+  left: 60%;
+  font-size: 25px;
+  font-style: italic;
+  color: white;
+}
+.num {
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  top: 42%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  left: 15%;
+}
+.l {
+  position: absolute;
+  width: 100%;
+  height: 33%;
+  top: 65%;
+}
+.a {
+  position: absolute;
+  top: 20%;
+  left: 72%;
+  font-size: 30px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.b {
+  position: absolute;
+  top: 55%;
+  left: 78%;
+  font-size: 15px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.c {
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  font-size: 25px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.d {
+  position: absolute;
+  top: 17%;
+  left: 35%;
+  font-size: 9px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.e {
+  position: absolute;
+  top: 29%;
+  left: 35%;
+  font-size: 9px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.f {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  font-size: 20px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}

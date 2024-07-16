@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./pict/mem.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100svh;
+  position: relative;
+}
+.head {
+  position: absolute;
+  top: 15%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 35%;
+}
+.child1 {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+.child2 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.child1 img {
+  position: absolute;
+  top: -10%;
+  right: -10%;
+  width: 200px;
+  height: 200px;
+}
+.l {
+  display: flex;
+}
+.thub {
+  font-size: 60px;
+}
+.logo img {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+}
+.l2 {
+  position: relative;
+}
+.gold {
+  position: absolute;
+  color: gold;
+  font-size: 50px;
+}
+.matter {
+  font-size: 20px;
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  width: 45%;
+  color: gold;
+}

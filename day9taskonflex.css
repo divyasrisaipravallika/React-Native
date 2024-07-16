@@ -1,0 +1,671 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.parent {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fe;
+  width: 100%;
+  height: 100svh;
+  position: relative;
+}
+.head {
+  position: absolute;
+  display: flex;
+  top: 2%;
+  width: 100%;
+  height: 60px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.h1 {
+  width: 90px;
+  height: 50px;
+  background-color: #9bdc50;
+  border-radius: 5px;
+  border-right: 2px solid white;
+}
+.h2 {
+  width: 90px;
+  height: 50px;
+  background-color: #85d4f5;
+  border-radius: 5px;
+  border-right: 2px solid white;
+}
+.h3 {
+  width: 90px;
+  height: 50px;
+  background-color: #85d4f5;
+  border-radius: 5px;
+  border-right: 2px solid white;
+}
+.h4 {
+  width: 100px;
+  height: 50px;
+  background-color: #85d4f5;
+  border-radius: 5px;
+  border-right: 2px solid white;
+}
+.h5 {
+  width: 90px;
+  height: 50px;
+  background-color: #fb645b;
+  border-radius: 5px;
+}
+.head p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin: 5px;
+  margin-top: 10px;
+}
+.body {
+  position: absolute;
+  top: 15%;
+  background-color: #f8f9fe;
+  width: 95%;
+  display: flex;
+  height: 80%;
+}
+.b1 {
+  width: 28%;
+  height: 100%;
+  position: relative;
+  background-color: #f8f9fe;
+}
+.b2 {
+  position: absolute;
+  width: 76%;
+  height: 100%;
+  left: 27%;
+  background-color: #f8f9fe;
+}
+.f1 {
+  height: 48%;
+  width: 100%;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgb(203 203 203);
+}
+.x1 {
+  position: absolute;
+  top: 5%;
+  left: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  height: 10%;
+  background-color: white;
+}
+.l1 {
+  width: 30%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 5px;
+}
+.i1 {
+  width: 68%;
+  height: 100%;
+}
+.f1 input {
+  height: 100%;
+  width: 100%;
+}
+.x2 {
+  position: absolute;
+  top: 20%;
+  left: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  height: 10%;
+  background-color: white;
+}
+.l2 {
+  width: 30%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 100;
+  position: absolute;
+  margin: 5px;
+}
+.i2 {
+  position: absolute;
+  left: 31%;
+  width: 68%;
+  height: 100%;
+}
+.x3 {
+  position: absolute;
+  top: 35%;
+  left: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  height: 10%;
+  background-color: white;
+}
+.l3 {
+  width: 30%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 100;
+  position: absolute;
+  margin: 5px;
+}
+.i3 {
+  position: absolute;
+  left: 31%;
+  width: 68%;
+  height: 100%;
+}
+.x4 {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  height: 10%;
+  background-color: white;
+}
+.l4 {
+  width: 30%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 100;
+  position: absolute;
+  margin: 5px;
+}
+.i4 {
+  position: absolute;
+  left: 31%;
+  width: 68%;
+  height: 100%;
+}
+.x5 {
+  position: absolute;
+  top: 65%;
+  left: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  height: 10%;
+  background-color: white;
+}
+.l5 {
+  width: 30%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 100;
+  position: absolute;
+  margin: 5px;
+}
+.i5 {
+  position: absolute;
+  left: 31%;
+  width: 68%;
+  height: 100%;
+}
+.x6 {
+  position: absolute;
+  top: 80%;
+  left: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  height: 10%;
+  justify-content: center;
+  background-color: white;
+}
+.s {
+  width: 130px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #027afe;
+  font-size: 20px;
+}
+.f2 {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  top: 53%;
+  width: 100%;
+  height: 50%;
+  box-shadow: 0px 0px 10px 0px rgb(203 203 203);
+}
+.y1 {
+  position: absolute;
+  top: 5%;
+  font-size: 20px;
+  font-weight: 200;
+  left: 15px;
+}
+.y2 {
+  position: absolute;
+  top: 20%;
+  font-size: 15px;
+  font-weight: 200;
+  left: 15px;
+}
+.y3 {
+  position: relative;
+  top: 30%;
+  left: 2%;
+  width: 95%;
+  height: 5px;
+  display: flex;
+  background-color: #0278ff;
+  border-radius: 10px;
+}
+.c1 {
+  width: 75%;
+  height: 5px;
+  background-color: #0278ff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.c2 {
+  left: 75%;
+  width: 25%;
+  height: 5px;
+  background-color: #e9eef1;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.y4 {
+  position: absolute;
+  top: 36%;
+  font-size: 15px;
+  font-weight: 200;
+  left: 15px;
+}
+.y5 {
+  position: absolute;
+  top: 45%;
+  left: 2%;
+  width: 95%;
+  height: 5px;
+  display: flex;
+  background-color: #0278ff;
+  border-radius: 10px;
+}
+.c3 {
+  width: 65%;
+  height: 5px;
+  background-color: #d43648;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.c4 {
+  left: 75%;
+  width: 35%;
+  height: 5px;
+  background-color: #e9eef1;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.y6 {
+  position: absolute;
+  top: 50%;
+  font-size: 15px;
+  font-weight: 200;
+  left: 15px;
+}
+.y7 {
+  position: absolute;
+  top: 58%;
+  left: 2%;
+  width: 95%;
+  height: 5px;
+  display: flex;
+  background-color: #0278ff;
+  border-radius: 10px;
+}
+.c5 {
+  width: 90%;
+  height: 5px;
+  background-color: #25a745;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.c6 {
+  left: 75%;
+  width: 10%;
+  height: 5px;
+  background-color: #e9eef1;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.y8 {
+  position: absolute;
+  top: 65%;
+  font-size: 15px;
+  font-weight: 200;
+  left: 15px;
+}
+.y9 {
+  position: absolute;
+  top: 73%;
+  left: 2%;
+  width: 95%;
+  height: 5px;
+  display: flex;
+  background-color: #0278ff;
+  border-radius: 10px;
+}
+.c7 {
+  width: 55%;
+  height: 5px;
+  background-color: #fbbd0f;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.c8 {
+  left: 75%;
+  width: 45%;
+  height: 5px;
+  background-color: #e9eef1;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.y10 {
+  position: absolute;
+  top: 79%;
+  font-size: 15px;
+  font-weight: 200;
+  left: 15px;
+}
+.y11 {
+  position: absolute;
+  top: 88%;
+  left: 2%;
+  width: 95%;
+  height: 5px;
+  display: flex;
+  background-color: #0278ff;
+  border-radius: 10px;
+}
+.c9 {
+  width: 80%;
+  height: 5px;
+  background-color: #1ca1b4;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.c10 {
+  left: 75%;
+  width: 20%;
+  height: 5px;
+  background-color: #e9eef1;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.bio {
+  position: absolute;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgb(203 203 203);
+}
+.bio img {
+  position: absolute;
+  left: 35%;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  top: 5%;
+  border: 2px solid blue;
+  justify-content: center;
+  flex-direction: row;
+}
+.bio1 {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 200;
+  top: 30%;
+  left: 33%;
+}
+.bio2 {
+  position: absolute;
+  font-size: 15px;
+  font-weight: 100;
+  color: gray;
+  top: 37%;
+  left: 23%;
+}
+.bio3 {
+  position: absolute;
+  font-size: 15px;
+  font-weight: 100;
+  color: gray;
+  top: 42%;
+  left: 19%;
+}
+.bio4 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  display: flex;
+}
+.a1 {
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  background-color: #027afe;
+  border-right: 4px solid white;
+}
+.a2 {
+  width: 60px;
+  height: 19px;
+  text-align: center;
+  color: #027afe;
+  border: 1px solid #027afe;
+}
+.bio5 {
+  width: 96%;
+  position: absolute;
+  height: fit-content;
+  border-bottom: 2px solid #f0f0f0;
+  left: 2%;
+  top: 60%;
+}
+.bio6 {
+  position: absolute;
+  top: 62%;
+  display: flex;
+  width: 100%;
+  height: 7%;
+  background-color: white;
+  flex-wrap: wrap;
+}
+.k1 {
+  position: absolute;
+  height: 100%;
+  left: 5%;
+  width: 20%;
+  display: flex;
+}
+.k2 {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  left: 15%;
+}
+.k3 {
+  position: absolute;
+  height: 100%;
+  left: 40%;
+  display: flex;
+  width: 30%;
+  color: gray;
+}
+.bio7 {
+  width: 96%;
+  position: absolute;
+  height: fit-content;
+  border-bottom: 2px solid #f0f0f0;
+  left: 2%;
+  top: 68%;
+}
+.bio8 {
+  position: absolute;
+  top: 69%;
+  display: flex;
+  width: 100%;
+  height: 7%;
+  background-color: white;
+  flex-wrap: wrap;
+}
+.k4 {
+  position: absolute;
+  height: 100%;
+  left: 5%;
+  width: 20%;
+}
+.k5 {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  left: 15%;
+}
+.k6 {
+  position: absolute;
+  height: 100%;
+  left: 72%;
+  width: 40%;
+  color: gray;
+}
+.bio9 {
+  width: 96%;
+  position: absolute;
+  height: fit-content;
+  border-bottom: 2px solid #f0f0f0;
+  left: 2%;
+  top: 74%;
+}
+.bio10 {
+  position: absolute;
+  top: 75%;
+  display: flex;
+  width: 100%;
+  height: 7%;
+  background-color: white;
+  flex-wrap: wrap;
+}
+.k7 {
+  position: absolute;
+  height: 100%;
+  left: 5%;
+  width: 20%;
+}
+.k8 {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  left: 15%;
+}
+.k9 {
+  position: absolute;
+  height: 100%;
+  left: 72%;
+  width: 40%;
+  color: gray;
+}
+.bio11 {
+  width: 96%;
+  position: absolute;
+  height: fit-content;
+  border-bottom: 2px solid #f0f0f0;
+  left: 2%;
+  top: 80%;
+}
+.bio12 {
+  position: absolute;
+  top: 81%;
+  display: flex;
+  width: 100%;
+  height: 7%;
+  background-color: white;
+  flex-wrap: wrap;
+}
+.k10 {
+  position: absolute;
+  height: 100%;
+  left: 5%;
+  width: 20%;
+}
+.k11 {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  left: 15%;
+}
+.k12 {
+  position: absolute;
+  height: 100%;
+  left: 72%;
+  width: 40%;
+  color: gray;
+}
+.bio13 {
+  width: 96%;
+  position: absolute;
+  height: fit-content;
+  border-bottom: 2px solid #f0f0f0;
+  left: 2%;
+  top: 86%;
+}
+.bio14 {
+  position: absolute;
+  top: 87%;
+  display: flex;
+  width: 100%;
+  height: 7%;
+  background-color: white;
+  flex-wrap: wrap;
+}
+.k13 {
+  position: absolute;
+  height: 100%;
+  left: 5%;
+  width: 20%;
+}
+.k14 {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  left: 15%;
+}
+.k15 {
+  position: absolute;
+  height: 100%;
+  left: 72%;
+  width: 40%;
+  color: gray;
+}
+.h1:hover {
+  background-color: #bb1e3d;
+}
+.h2:hover {
+  background-color: #25a745;
+}
+.h3:hover {
+  background-color: #ecfc3c;
+}
+.h4:hover {
+  background-color: #e32d9e;
+}
+.h5:hover {
+  background-color: #3636d4;
+}

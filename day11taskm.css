@@ -1,0 +1,271 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.parent {
+  width: 100%;
+  height: 100svh;
+  display: flex;
+  position: relative;
+}
+.p1 {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to top right, #1a5c7e, #7fccc4);
+}
+.p2 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 50%;
+  background-color: #82cfc7;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 10%;
+}
+.head {
+  position: relative;
+  width: 100%;
+  height: 10%;
+  top: 5%;
+}
+.logo {
+  position: relative;
+  top: 5%;
+  left: 5%;
+  height: 100%;
+  width: 10%;
+}
+.box {
+  position: absolute;
+  top: 0%;
+  width: 15px;
+  height: 15px;
+  background-color: #519ba6;
+  border: 2px solid black;
+  box-shadow: 6px 6px black;
+}
+.text {
+  position: absolute;
+  left: 20%;
+  font-size: 22px;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: -2%;
+}
+.home {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  top: 30%;
+  gap: 30px;
+  left: 15%;
+}
+.child {
+  color: white;
+}
+.child5 {
+  color: white;
+  display: flex;
+}
+.profile {
+  position: absolute;
+  left: 95%;
+  top: 0%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+}
+.profile i {
+  position: absolute;
+  left: 25%;
+  top: 15%;
+}
+.main {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: 20%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.discover {
+  position: absolute;
+  font-size: 40px;
+  left: 30%;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+.matter {
+  position: absolute;
+  top: 100%;
+  font-size: 15px;
+  left: 35%;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.search {
+  position: absolute;
+  top: 50%;
+  width: 35%;
+  height: 10%;
+  left: 28%;
+  background-color: white;
+  border-radius: 50px;
+}
+.slogo {
+  position: absolute;
+  left: 2%;
+  top: 20%;
+}
+.script {
+  position: absolute;
+  left: 8%;
+  top: 20%;
+  width: 60%;
+}
+.script input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+.search input[value] {
+}
+.button {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  top: 10%;
+  border-radius: 50px;
+  font-size: 15px;
+  color: white;
+  background-color: #80cfc9;
+  left: 82%;
+  text-align: center;
+}
+.x1 {
+  position: absolute;
+  top: -20%;
+  width: 30%;
+  height: 110%;
+  background-color: white;
+  left: 15%;
+  border-radius: 10px;
+}
+.x2 {
+  position: absolute;
+  top: -20%;
+  width: 40%;
+  height: 110%;
+  background-color: #50899b;
+  left: 48%;
+  border-radius: 10px;
+  display: flex;
+  background-image: url(https://www.exactsales.com.br/wp-content/uploads/elementor/thumbs/post_blog_analise_concorrencia-qfidqoit7t1rpu37yutsn5fyvppgtiggxw47fupfwk.webp);
+}
+.a1 {
+  position: absolute;
+  display: flex;
+  top: 10%;
+  left: 10%;
+  width: 85%;
+  height: 10%;
+  justify-content: space-between;
+}
+.web {
+  width: 30%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.z {
+  width: 20px;
+  height: 20px;
+  background-color: #00abf9;
+  border-radius: 2px;
+  color: white;
+}
+.y {
+  position: absolute;
+  width: 50%;
+  height: 40%;
+  left: 10%;
+  top: 20%;
+}
+.picture img {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 48%;
+}
+.web1 {
+  width: 30%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.z1 {
+  width: 20px;
+  height: 20px;
+  background-color: #526df7;
+  border-radius: 2px;
+  color: white;
+}
+.y1 {
+  position: absolute;
+  width: 80%;
+  height: fit-content;
+  left: 10%;
+  top: 20%;
+  color: white;
+}
+.b1 {
+  position: absolute;
+  top: 45%;
+  width: 18%;
+  left: 10%;
+  border-radius: 10px;
+  color: white;
+  background-color: #80cfc9;
+  text-align: center;
+}
+.iocns {
+  position: absolute;
+  top: 80%;
+  width: fit-content;
+  height: fit-content;
+  left: 10%;
+  color: white;
+  text-align: center;
+  display: flex;
+  gap: top 5%;
+  gap: 10px;
+}
+.share {
+  font-size: 20px;
+}
+.icon1 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #80cfc9;
+}
+.icon1 i {
+  margin-top: 20%;
+  align-items: center;
+}
+.save i {
+  position: absolute;
+  top: 82%;
+  right: 10%;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+}

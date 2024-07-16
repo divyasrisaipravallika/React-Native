@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.parent {
+  width: 100%;
+  height: 100svh;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+}
+.b1 {
+  width: 95%;
+  height: 50px;
+  left: 3%;
+  position: absolute;
+  top: 20%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.b1c {
+  height: 100%;
+  width: 50px;
+  background-color: red;
+  border: 1px solid black;
+}
+.b2 {
+  width: 95%;
+  height: 50px;
+  left: 3%;
+  position: absolute;
+  top: 28.3%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.b2c1 {
+  height: 100%;
+  width: 100px;
+  background-color: red;
+  display: flex;
+}
+.b2c11 {
+  height: 100%;
+  width: 50px;
+  background-color: red;
+  border: 1px solid black;
+}
+.b2c2 {
+  height: 100%;
+  width: 300px;
+  background-color: red;
+  display: flex;
+}
+.b2c22 {
+  height: 100%;
+  width: 50px;
+  background-color: red;
+  border: 1px solid black;
+}
+.b3 {
+  width: 95%;
+  height: 50px;
+  left: 3%;
+  position: absolute;
+  top: 36.8%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.b3c1 {
+  height: 100%;
+  width: 100px;
+  background-color: red;
+  display: flex;
+}
+.b3c11 {
+  height: 100%;
+  width: 50px;
+  background-color: red;
+  border: 1px solid black;
+}
+.b3c2 {
+  height: 100%;
+  width: 300px;
+  background-color: red;
+  display: flex;
+}
+.b3c22 {
+  height: 100%;
+  width: 50px;
+  background-color: red;
+  border: 1px solid black;
+}
+.b4 {
+  width: 95%;
+  height: 50px;
+  left: 3%;
+  position: absolute;
+  top: 50%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+.b4c {
+  height: 100%;
+  width: 50px;
+  background-color: red;
+  border-right: 1px solid black;
+}
+.b4c1 {
+  height: 100%;
+  width: 47px;
+  background-color: red;
+}

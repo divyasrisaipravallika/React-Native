@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./digitaclock.css" />
+  </head>
+  <body>
+    <div class="hours"></div>
+    <div class="m">&nbsp;:&nbsp;</div>
+    <div class="minutes"></div>
+    <div class="m">&nbsp;:&nbsp;</div>
+    <div class="seconds"></div>
+  </body>
+  <script>
+    function fun() {
+      var x = new Date();
+      document.getElementsByClassName("hours")[0].innerHTML = x.getHours();
+      document.getElementsByClassName("minutes")[0].innerHTML = x.getMinutes();
+      document.getElementsByClassName("seconds")[0].innerHTML = x.getSeconds();
+    }
+    setInterval(fun, 1000);
+  </script>
+</html>

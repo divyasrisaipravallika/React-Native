@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p {
+  width: 400px;
+  height: 400px;
+}
+.m {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+.f {
+  border: 1px solid red;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+.t {
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: skew(-50deg);
+}

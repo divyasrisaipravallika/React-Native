@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./teamtask2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="child1">
+      <div class="child1_head">
+        <div class="child1_head_p1">
+          <div class="child1_logo"><img src="./pict/owl.jfif" /></div>
+          <div class="child1_options">
+            <div class="child1_op">Home</div>
+            <div class="child1_op">About Us</div>
+            <div class="child1_op">Healthcare</div>
+            <div class="child1_op">Contact</div>
+            <div class="child1_op">Support</div>
+          </div>
+        </div>
+        <div class="child1_head_p2">
+          <div class="child1_icon">
+            <i class="fa-solid fa-bars" onclick="fun('child1_items')"></i>
+          </div>
+        </div>
+      </div>
+      <div class="child1_remainig">
+        <div class="child1_h">
+          <img src="./task48/5.png" />
+        </div>
+        <div class="child1_items">
+          <div class="cross" onclick="fun2('child1_items')">&cross;</div>
+          <div class="child1_op1">Home</div>
+          <div class="child1_op1">About Us</div>
+          <div class="child1_op1">Healthcare</div>
+          <div class="child1_op1">Contact</div>
+          <div class="child1_op1">Support</div>
+        </div>
+        <div class="child1_i">
+          <div class="child1_i1"></div>
+          <div class="child1_i2">Keeping Pets Happy And Healthy</div>
+          <div class="child1_i3">
+            pet, any animal kept by human beings as a source of companionship
+            and pleasure. While a pet is generally kept for the pleasure that it
+            can give to its owner, often, especially with horses, dogs, and
+            cats, as well as with some other domesticated animals, this pleasure
+            appears to be mutual.
+          </div>
+          <div class="child1_i4">
+            image from
+            <a href="https://www.istockphoto.com/search/2/image-film?phrase=vr"
+              >Freepik</a
+            >
+          </div>
+          <div class="child1_i5">Read more</div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function fun(data) {
+        var d = document.getElementsByClassName(data)[0];
+        d.style.width = "150px";
+        d.style.color = "white";
+      }
+      function fun2(data) {
+        var d = document.getElementsByClassName(data)[0];
+        d.style.width = "0px";
+        // d.style.display = "none";
+        d.style.color = "transparent";
+      }
+    </script>
+  </body>
+</html>

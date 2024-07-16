@@ -1,0 +1,66 @@
+body {
+  background-color: gainsboro;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent {
+  width: 270px;
+  height: 100px;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 50px;
+  background-color: aquamarine;
+  position: relative;
+  transition: all 2s;
+  background-image: url(./pict/clouds.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parent::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ffc000;
+  box-shadow: 0px 0px 10px 10px #e6c2aa;
+  left: 5%;
+  top: 8%;
+  transition: all 2s;
+}
+.parent:hover {
+  background-image: url(./pict/night.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parent:hover::before {
+  left: 65%;
+  background-color: white;
+  box-shadow: 0px 0px 5px 5px #e4e4e4;
+}
+/* .parent:hover body {
+  /* background-image: url(./book.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
+/* background-color: black;
+} */
+body:has(.parent:hover) {
+  background-color: blue;
+}
+
+/* body:hover .parent {
+  border: 2px solid black;
+} */
+.e {
+  width: 200px;
+  height: 200px;
+  transition: all 2s;
+  transition-timing-function: ease-in;
+  background-color: black;
+}
+.e:hover {
+  transform: translateX(130px);
+  background-color: blue;
+}

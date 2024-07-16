@@ -1,0 +1,142 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./taskonjsforms.css" />
+    <script src="./taskonjsforms.js"></script>
+  </head>
+  <body>
+    <form>
+        <table style="text-align: center" cellspacing="0">
+      <tr>
+        <td><div class="label"><label>First Name:</label></div></td>
+        <td><input type="text" onchange="firstname(event)"></td>
+      </tr>
+      <tr>
+        <td><div class="label2"><label>Last Name:</label></div></td>
+        <td><input type="text" onchange="lastname(event)"></td>
+      </tr>
+      <tr>
+        <td><div class="label"><label>Age:</label></div></td>
+        <td><input type="number" onchange="age(event)"/></td>
+      </tr>
+      <tr>
+        <td><div class="label2"><label>Father Name:</label></div></td>
+        <td><input type="text" onchange="fathername(event)"></td>
+      </tr>
+      <tr>
+        <td><div class="label"><label>Mother Name:</label></div></td>
+        <td><input type="text" onchange="mothername(event)"></td>
+      </tr>
+      <tr>
+        <td><div class="label2"><label>Address:</label></div></td>
+        <td><textarea value = "" onchange="address(event)"></textarea></td>
+      </tr>
+      <tr>
+        <td><div class="label"><label>Gender:</label></div></td>
+        <td><input type="radio" name="Gender" value="Male" onchange="gender(event)"/><label>Male</label></td>
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><input type="radio" name="Gender" value="Female" onchange="gender(event)"/><label>Female</label></td>
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><input type="radio" name="Gender" value="Others" onchange="gender(event)"/><label>Others</label></td>
+      </tr>
+      <tr>
+        <td><div class="label2"><label>Certifications:</label></div></td>
+        <td><textarea></textarea></td>
+      </tr>
+      <tr>
+        <td><div class="label"><label>Phone number:</label></div></td>
+        <td><input type="number" value=0 onchange="phoneno(event)"/></td>
+      </tr> 
+      <tr>
+        <td><div class="label2"><label>Date of birth:</label></div></td>
+        <td><input type="date" value="" onchange="birth(event)"/></td>
+      </tr>
+      <tr>
+        <td><div class="label"><label>Email:</label></div></td>
+        <td><input type="email"  value= ""   onchange="email(event)"/></td>
+      </tr>
+      <!-- <tr>
+        <td><label>College:</label></td>
+        <td>
+          <select>
+            <option selected></option>
+            <option>AEC</option>
+            <option>ACET</option>
+            <option>ACOE</option>
+          </select>
+        </td>
+      </tr> -->
+      <tr>
+        <td><button type="reset">Reset</button></td>
+        <td><button type="submit" onclick="fun(event)">Submit</button></td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <table class="m" border="2">
+        <th>Class</th>
+        <th>Percentage</th>
+        <th>Year Of Passing</th>
+        <th>Name of the 
+           institution</th>
+        <tr>
+          <td>SSC</td>
+          <td><input type="text" value="" name="s1" onchange="ssc(event)"></td>
+          <td><input type="text" value="" name="s2"onchange="ssc(event)"></td>
+          <td><input type="text" value="" name="s3"onchange="ssc(event)"></td>
+        </tr>
+        <tr>
+          <td>Intermediate</td>
+          <td><input type="text" value="" name="i1" onchange="inter(event)"></td>
+          <td><input type="text" value="" name="i3"onchange="inter(event)"></td>
+          <td><input type="text"value="" name="i3"onchange="inter(event)"></td>
+        </tr>
+        <tr>
+          <td>B.tech</td>
+          <td><input type="text" value="" name="e1"onchange="eng(event)"></td>
+          <td><input type="text" value="" name="e2" onchange="eng(event)"></td>
+          <td><input type="text" value="" name="e3" onchange="eng(event)"></td>
+        </tr>
+      </table>
+      <br>
+      <br>
+        <table class="t">
+            <tr>
+                <td><div class="label2"><label>Skills:</label></div></td>
+                <td><label class="l">C</label><input type="checkbox" value="c" onchange="skills(event)"></td>
+              </tr>
+              <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><label class="l">Java</label><input type="checkbox" value="java" onchange="skills(event)"/></td>
+              </tr>
+              <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><label class="l">C++</label><input type="checkbox" value="cpp" onchange="skills(event)"/></td>
+              </tr>
+              <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><label class="l">Python</label><input type="checkbox" value="Python"onchange="skills(event)"/></td>
+              </tr>
+            <tr>
+                <td><div class="label"><label>Hobbies:&nbsp;&nbsp;&nbsp;</div></label></td>
+                <td><input type="text" value="" onchange="hobbies(event)"></td>
+              </tr>
+              <tr>
+                <td><div class="label2"><label>Profile Pic:</label></div></td>
+                <td><input type="file" value="" onchange="pic(event)"/></td>
+              </tr>
+              <tr>
+                <td><div class="label"><label>Badges</label></div></td>
+                <td><textarea value="" onchange="badges(event)"></textarea></td>
+              </tr>
+              <tr>
+                <td><div class="label2"><label>Description</label></div></td>
+                <td><textarea value="" onchange="description(event)"></textarea></td>
+              </tr>
+        </table>
+</forms>
+  </body>
+</html>

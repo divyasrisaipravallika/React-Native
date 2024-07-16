@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @keyframes slideIn {
+        from {
+          transform: translateX(-100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+
+      .slide-in {
+        animation: slideIn 0.5s ease-in-out;
+      }
+
+      /* Basic table styling */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
+      div {
+        cursor: pointer;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div onclick="fun()">VIEW DETAILS</div>
+    <script>
+      var info = ["Name", "Roll Number", "Branch", "CGPA", "Action"];
+      var studentdata = [
+        {
+          name: "Divya",
+          roll: "22A91A4466",
+          branch: "DS",
+          cgpa: 8.98,
+        },
+        {
+          name: "Shalini",
+          roll: "23MH1A05L4",
+          branch: "CSE",
+          cgpa: 9.05,
+        },
+      ];
+      var count = 0;
+
+      function fun() {
+        count++;
+        var div = document.getElementsByTagName("div")[0];
+        div.innerHTML = "ADD DETAILS";
+        if (count == 1) {
+          var table = document.createElement("table");
+          var body = document.getElementsByTagName("body")[0];
+          body.appendChild(table);
+          var tr = document.createElement("tr");
+          tr.setAttribute("class", "head slide-in");
+          table.appendChild(tr);
+          for (var i = 0; i <= 4; i++) {
+            var th = document.createElement("th");
+            tr.appendChild(th);
+            th.innerHTML = info[i];
+          }
+          for (var i = 0; i < studentdata.length; i++) {
+            addRow(table, i);
+          }
+        } else {
+          addNewStudent();
+        }
+      }
+
+      function addRow(table, i) {
+        var tr = document.createElement("tr");
+        tr.classList.add("slide-in");
+        table.appendChild(tr);
+        for (var j = 0; j <= 4; j++) {
+          var td = document.createElement("td");
+          tr.appendChild(td);
+          var input = document.createElement("input");
+          if (j == 0) {
+            input.setAttribute("value", studentdata[i].name);
+            input.setAttribute("name", i + "-name");
+          } else if (j == 1) {
+            input.setAttribute("value", studentdata[i].roll);
+            input.setAttribute("name", i + "-roll");
+          } else if (j == 2) {
+            input.setAttribute("value", studentdata[i].branch);
+            input.setAttribute("name", i + "-branch");
+          } else if (j == 3) {
+            input.setAttribute("value", studentdata[i].cgpa);
+            input.setAttribute("name", i + "-cgpa");
+          }
+          if (j != 4) {
+            input.setAttribute("onchange", "edit(event)");
+            td.appendChild(input);
+          }
+        }
+        var button = document.createElement("button");
+        button.innerHTML = "DELETE";
+        button.setAttribute("onclick", "del(event)");
+        button.setAttribute("name", i);
+        td.append(button);
+      }
+
+      function addNewStudent() {
+        var data = {
+          name: "",
+          roll: "",
+          branch: "",
+          cgpa: "",
+        };
+        var table = document.getElementsByTagName("table")[0];
+        var i = studentdata.length;
+        data.name = window.prompt("Enter the Name");
+        data.roll = window.prompt("Enter the Rollnumber");
+        data.branch = window.prompt("Enter the Branch");
+        data.cgpa = window.prompt("Enter the Cgpa");
+        studentdata.push(data);
+        addRow(table, i);
+      }
+
+      function edit(event) {
+        var [index, field] = event.target.name.split("-");
+        index = parseInt(index);
+        studentdata[index][field] = event.target.value;
+        console.log(studentdata);
+      }
+
+      function del(event) {
+        var index = parseInt(event.target.name);
+        studentdata.splice(index, 1);
+        var table = document.getElementsByTagName("table")[0];
+        var tr = document.getElementsByTagName("tr")[index + 1]; // +1 to account for the header row
+        tr.classList.add("fade-out");
+
+        // Remove the row after the animation completes
+        setTimeout(function () {
+          table.removeChild(tr);
+          // Recreate the table to update indices
+          recreateTable(table);
+        }, 500);
+      }
+
+      function recreateTable(table) {
+        // Remove all rows
+        while (table.rows.length > 0) {
+          table.deleteRow(0);
+        }
+
+        // Recreate the table header
+        var tr = document.createElement("tr");
+        tr.setAttribute("class", "head");
+        table.appendChild(tr);
+        for (var i = 0; i < info.length; i++) {
+          var th = document.createElement("th");
+          tr.appendChild(th);
+          th.innerHTML = info[i];
+        }
+
+        // Recreate the rows with updated indices
+        for (var i = 0; i < studentdata.length; i++) {
+          addRow(table, i);
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFRV8epIteBOD5Bs8suzCbEUkQoteMOdotBqAI3TmNPHqio0BUkUt1lai4bzNUjbSqzNQ&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+table {
+  display: flex;
+  align-items: center;
+}
+td {
+  height: 50px;
+}
+tr:nth-child(even) {
+  /* background-color: rgb(193, 191, 191); */
+}
+td label {
+  font-size: 18px;
+}
+table:first-child input {
+  font-size: 18px;
+  margin-left: 40px;
+  box-shadow: 0px 0px 2px 2px black;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.t input {
+  font-size: 18px;
+  margin-left: 40px;
+  box-shadow: 0px 0px 2px 2px black;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+input:hover {
+  animation: a3 2s infinite;
+}
+tr {
+  font-size: 18px;
+}
+.l {
+  margin-left: 40px;
+}
+.m {
+  display: flex;
+}
+.m input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: fit-content;
+  margin-left: 0;
+  height: 50px;
+}
+textarea {
+  width: 220px;
+  height: 24px;
+  font-size: 15px;
+  margin-left: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  box-shadow: 0px 0px 2px 2px black;
+}
+textarea:hover {
+  animation: a3 2s infinite;
+}
+.label {
+  border-radius: 10px;
+  background: linear-gradient(to top right, rgba(111, 69, 69, 0.849), red);
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  align-items: center;
+  animation: a2 2s infinite;
+}
+.label2 {
+  border-radius: 10px;
+  background: linear-gradient(to top right, #1a5c7e, #7fccc4);
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  align-items: center;
+  animation: a 2s infinite;
+}
+.label,
+.label2 {
+  box-shadow: 0px 0px 5px 2px black;
+}
+@keyframes a {
+  0% {
+    background: linear-gradient(to top right, rgba(111, 69, 69, 0.849), red);
+  }
+  100% {
+    background: linear-gradient(to top right, #1a5c7e, #7fccc4);
+  }
+}
+@keyframes a2 {
+  0% {
+    background: linear-gradient(to top right, #1a5c7e, #7fccc4);
+  }
+  100% {
+    background: linear-gradient(to top right, rgba(111, 69, 69, 0.849), red);
+  }
+}
+@keyframes a3 {
+  0% {
+    box-shadow: 0px 0px 1px 1px rgb(255, 0, 200);
+  }
+  50% {
+    box-shadow: 0px 0px 2px 2px red;
+  }
+  100% {
+    box-shadow: 0px 0px 3px 3px orange;
+  }
+}

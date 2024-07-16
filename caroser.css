@@ -1,0 +1,37 @@
+.parent {
+  display: flex;
+  border: 2px solid red;
+  position: relative;
+  overflow: hidden;
+}
+.child {
+  display: flex;
+  font-size: 32px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  text-align: center;
+  overflow: hidden;
+}
+.slick-dots {
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  left: 40%;
+  bottom: -50px;
+}
+li button {
+  display: none;
+}
+.slick-active {
+  color: red;
+}
+.prev_button {
+  width: 100px;
+  height: fit-content;
+  border-radius: 100px;
+  font-size: 20px;
+  margin: 20px;
+}
+.inner_child {
+}

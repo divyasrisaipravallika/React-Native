@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <script src="./events.js"></script>
+    </head>
+    <body>
+      <center> <form>
+        <table style="text-align: center">
+      <tr>
+        <td><label>First Name:</label></td>
+        <td><input type="text" onchange="firstname(event)"></td>
+      </tr>
+      <tr>
+        <td><label>Last Name:</label></td>
+        <td><input type="text" onchange="lastname(event)"></td>
+      </tr>
+      <tr>
+        <td><label>Age:</label></td>
+        <td><input type="number" onchange="age(event)"/></td>
+      </tr>
+      <tr>
+        <td><label>Gender:</label></td>
+        <td><input type="radio" name="Gender" value="Male" onchange="gender(event)"/><label>Male</label></td>
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><input type="radio" name="Gender" value="Female" onchange="gender(event)"/><label>Female</label></td>
+      </tr>
+      <tr>
+        <td><label>Skills:</label></td>
+        <td><label>C</label><input type="checkbox" value="c" onchange="skills(event)"></td>
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><label>Java</label><input type="checkbox" value="java" onchange="skills(event)"/></td>
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><label>C++</label><input type="checkbox" value="cpp" onchange="skills(event)"/></td>
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><label>Python</label><input type="checkbox" value="Python"onchange="skills(event)"/></td>
+      </tr>
+      <tr>
+        <td><label>Phone number:</label></td>
+        <td><input type="number" value= 0 onchange="phoneno(event)"/></td>
+      </tr> 
+      <tr>
+        <td><label>Date of birth:</label></td>
+        <td><input type="date" value="" onchange="birth(event)"/></td>
+      </tr>
+      <tr>
+        <td><label>Email:</label></td>
+        <td><input type="email"  value= ""   onchange="email(event)"/></td>
+      </tr>
+      <tr>
+        <td><label>College:</label></td>
+        <td>
+          <select>
+            <option>AEC</option>
+            <option>ACET</option>
+            <option>ACOE</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label>Profile:</label></td>
+        <td><input type="file" /></td>
+      </tr>
+      <tr>
+        <td><button type="reset">Reset</button></td>
+        <td><button type="submit" onclick="fun(event)">Submit</button></td>
+      </tr>
+    </table>
+</forms></center> 
+    </body>
+</html>

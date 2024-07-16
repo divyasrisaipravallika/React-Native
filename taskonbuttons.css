@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* button {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 30px;
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+}
+button::before {
+  position: absolute;
+  content: "";
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  background-image: url(./pict/anger.jfif);
+  font-size: 30px;
+  left: 300px;
+  top: 0%;
+  transition: all 1s;
+}
+button:hover {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button:hover::before {
+  left: 0%;
+} */
+
+/* button {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 30px;
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+}
+button::before {
+  position: absolute;
+  content: "";
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 30px;
+  left: 300px;
+  top: 0%;
+  border: 2px solid black;
+  transition: all 1s;
+}
+button::after {
+  position: absolute;
+  content: "";
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 30px;
+  left: -300px;
+  top: 0%;
+  border: 2px solid black;
+  transition: all 1s;
+}
+button:hover {
+}
+button:hover::before {
+  background-image: url(./pict/pop2.webp);
+  left: 50px;
+}
+button:hover::after {
+  background-image: url(./pict/pop2.webp);
+  left: -50px;
+} */
+
+button {
+  background-image: url(./pict/ballon.jfif);
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+button div {
+  position: absolute;
+  top: 20%;
+  font-size: 20px;
+  left: 40%;
+  color: white;
+}
+button::before {
+  content: "";
+  position: absolute;
+  background-image: url(./pict/ball.gif);
+  width: 200px;
+  height: 200px;
+  left: 400px;
+  top: 0%;
+}
+button:hover div {
+  color: transparent;
+
+  border-radius: 50%;
+}
+button:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px blue;
+  animation-name: a;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+button:hover::before {
+  left: 0;
+  border-radius: 50%;
+}
+@keyframes a {
+  0% {
+    box-shadow: 10px 0px 30px 10px blue;
+  }
+  50% {
+    box-shadow: 10px 0px 40px 20px red;
+  }
+  100% {
+    box-shadow: 10px 0px 10px 10px black;
+  }
+}

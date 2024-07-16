@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <script>
+      //   var a = [10, 11, 12, 13, 14];
+      //   //   for (var i = 0; i < 5; i++) {
+      //   //     a.push(parseInt(window.prompt("Enter the number" + i)));
+      //   //   }
+      //   //   console.log(a);
+      //   // splice()
+      //   //   a.splice(1, 1); // -->  deleting the element at index 1
+      //   //   console.log(a);
+      //   // iterating an array (it is like for each loop)
+      //   //   a.map((ele) => {
+      //   //     console.log(ele);
+      //   //   });
+      //   //   a.splice(2, 0, 325, 41121211);
+      //   a.unshift(1212);
+      //   console.log(a.slice(1, 4));
+
+      //prime or not
+      var num = parseInt(window.prompt("Enter the number"));
+      var c = 0;
+      for (var i = 2; i < num * 0.5; i++) {
+        if (num % i == 0) {
+          c = 1;
+          break;
+        }
+      }
+      if (c == 0) console.log("Prime");
+      else console.log("Not a prime");
+    </script>
+  </head>
+</html>
